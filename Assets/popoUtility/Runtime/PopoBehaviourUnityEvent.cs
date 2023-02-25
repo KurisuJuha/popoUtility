@@ -10,5 +10,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnAnimatorIK(int layerIndex) { }
         protected virtual void OnAnimatorMove() { }
         protected virtual void OnApplicationFocus() { }
+        protected virtual void OnApplicationPause(bool pauseStatus) { }
     }
 }
