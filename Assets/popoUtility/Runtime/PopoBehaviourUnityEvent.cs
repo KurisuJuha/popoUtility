@@ -33,5 +33,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnMouseDown() { }
         protected virtual void OnMouseDrag() { }
         protected virtual void OnMouseEnter() { }
+        protected virtual void OnMouseExit() { }
     }
 }
