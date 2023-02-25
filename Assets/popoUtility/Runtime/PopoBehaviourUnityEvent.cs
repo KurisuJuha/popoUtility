@@ -8,5 +8,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void FixedUpdate() { }
         protected virtual void LateUpdate() { }
         protected virtual void OnAnimatorIK(int layerIndex) { }
+        protected virtual void OnAnimatorMove() { }
     }
 }
