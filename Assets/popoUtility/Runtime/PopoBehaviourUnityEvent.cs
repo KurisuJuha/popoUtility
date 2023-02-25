@@ -48,5 +48,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnRenderObject() { }
         protected virtual void OnTransformChildrenChanged() { }
         protected virtual void OnTransformParentChanged() { }
+        protected virtual void OnTriggerEnter(Collider other) { }
     }
 }
