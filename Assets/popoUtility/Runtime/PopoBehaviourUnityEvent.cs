@@ -15,5 +15,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnAudioFilterRead(float[] data, int channels) { }
         protected virtual void OnBecameInvisible() { }
         protected virtual void OnBecameVisible() { }
+        protected virtual void OnCollisionEnter(Collision other) { }
     }
 }
