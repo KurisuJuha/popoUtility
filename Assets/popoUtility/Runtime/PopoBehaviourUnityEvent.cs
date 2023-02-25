@@ -41,5 +41,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnParticleSystemStopped() { }
         protected virtual void OnParticleTrigger() { }
         protected virtual void OnParticleUpdateJobScheduled() { }
+        protected virtual void OnPostRender() { }
     }
 }
