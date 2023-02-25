@@ -38,5 +38,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnMouseUp() { }
         protected virtual void OnMouseUpAsButton() { }
         protected virtual void OnParticleCollision(GameObject other) { }
+        protected virtual void OnParticleSystemStopped() { }
     }
 }
