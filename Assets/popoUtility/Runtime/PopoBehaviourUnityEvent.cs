@@ -18,5 +18,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnCollisionEnter(Collision other) { }
         protected virtual void OnCollisionEnter2D(Collision2D other) { }
         protected virtual void OnCollisionExit(Collision other) { }
+        protected virtual void OnCollisionExit2D(Collision2D other) { }
     }
 }
