@@ -36,5 +36,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnMouseExit() { }
         protected virtual void OnMouseOver() { }
         protected virtual void OnMouseUp() { }
+        protected virtual void OnMouseUpAsButton() { }
     }
 }
