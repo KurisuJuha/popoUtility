@@ -16,5 +16,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnBecameInvisible() { }
         protected virtual void OnBecameVisible() { }
         protected virtual void OnCollisionEnter(Collision other) { }
+        protected virtual void OnCollisionEnter2D(Collision2D other) { }
     }
 }
