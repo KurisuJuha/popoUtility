@@ -6,5 +6,6 @@ namespace JuhaKurisu.PopoTools.Utility
     {
         protected virtual void Awake() { }
         protected virtual void FixedUpdate() { }
+        protected virtual void LateUpdate() { }
     }
 }
