@@ -58,5 +58,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnWillRenderObject() { }
         protected virtual void Reset() { }
         protected virtual void Start() { }
+        protected virtual void Update() { }
     }
 }
