@@ -31,5 +31,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnJointBreak(float breakForce) { }
         protected virtual void OnJointBreak2D(Joint2D brokenJoint) { }
         protected virtual void OnMouseDown() { }
+        protected virtual void OnMouseDrag() { }
     }
 }
