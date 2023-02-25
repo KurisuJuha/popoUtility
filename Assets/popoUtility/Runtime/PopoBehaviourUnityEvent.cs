@@ -24,5 +24,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnControllerColliderHit(ControllerColliderHit hit) { }
         protected virtual void OnDestroy() { }
         protected virtual void OnDisable() { }
+        protected virtual void OnDrawGizmos() { }
     }
 }
