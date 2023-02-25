@@ -55,5 +55,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnTriggerStay(Collider other) { }
         protected virtual void OnTriggerStay2D(Collider2D other) { }
         protected virtual void OnValidate() { }
+        protected virtual void OnWillRenderObject() { }
     }
 }
