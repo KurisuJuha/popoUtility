@@ -26,5 +26,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnDisable() { }
         protected virtual void OnDrawGizmos() { }
         protected virtual void OnDrawGizmosSelected() { }
+        protected virtual void OnEnable() { }
     }
 }
