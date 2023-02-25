@@ -12,5 +12,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnApplicationFocus() { }
         protected virtual void OnApplicationPause(bool pauseStatus) { }
         protected virtual void OnApplicationQuit() { }
+        protected virtual void OnAudioFilterRead(float[] data, int channels) { }
     }
 }
