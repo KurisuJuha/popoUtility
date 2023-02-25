@@ -46,5 +46,6 @@ namespace JuhaKurisu.PopoTools.Utility
         protected virtual void OnPreRender() { }
         protected virtual void OnRenderImage(RenderTexture src, RenderTexture dest) { }
         protected virtual void OnRenderObject() { }
+        protected virtual void OnTransformChildrenChanged() { }
     }
 }
